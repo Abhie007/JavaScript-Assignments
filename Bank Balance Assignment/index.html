@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bank Calculator</title>
+</head>
+
+<body>
+    <h1>Bank Interest Calculator</h1>
+    <div class="container">
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Balance</th>
+                    <th>Balance after Interest</th>
+
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="Enter Name"></td>
+                    <td> <input type="number" class="in" min="0" id="input-1" placeholder="Enter Balance"
+                           > </td>
+                    <td id="data-1"></td>
+
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="Enter Name"></td>
+                    <td> <input type="number" min="0" class="in" id="input-2" placeholder="Enter Balance"
+                            > </td>
+                    <td id="data-2"></td>
+
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="Enter Name"></td>
+                    <td> <input type="number" min="0" class="in" id="input-3" placeholder="Enter Balance"
+                            > </td>
+                    <td id="data-3"></td>
+
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="Enter Name"></td>
+                    <td> <input type="number" min="0" class="in" id="input-4" placeholder="Enter Balance"
+                            "> </td>
+                    <td id="data-4"></td>
+
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="Enter Name"></td>
+                    <td> <input type="number" min="0" class="in" id="input-5" placeholder="Enter Balance"
+                            > </td>
+                    <td id="data-5"></td>
+
+                </tr>
+            </thead>
+        </table>
+        
+        <div><button class="btn" onclick="oncalculate()">Click Here To Calculate Balance After Intrest</button></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
