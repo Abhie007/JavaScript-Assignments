@@ -16,17 +16,20 @@ h1{
 }
 
 table{
-    background-color: rgb(225, 220, 220);
+    background-image: linear-gradient(to left, rgb(255, 242, 0),rgb(240, 240, 240),rgb(255, 221, 0));
+    box-shadow: 5px 5px 5px 5px gray;
+
 }
 
 th{
     background-color: rgba(88, 225, 14, 0.726);
-}
-
-input:hover{
-    background-color: rgba(138, 137, 137, 0.308);
+    background-image: linear-gradient(to left, rgb(255, 242, 0),rgb(240, 240, 240),rgb(255, 221, 0));
+    font-size: larger;
 }
 
 .btn{
     background-color: goldenrod;
+    font-size: large;
+    font-style: italic;
+    box-shadow: 5px 5px 5px 5px gray;
 }
